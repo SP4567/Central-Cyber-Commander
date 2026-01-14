@@ -1,0 +1,15 @@
+{
+    "timestamp": "2026-01-14_18-30-51",
+    "event": {
+        "event": "MALWARE_DETECTED",
+        "severity_hint": "high",
+        "raw": "Malware detected attempting privilege escalation"
+    },
+    "analysis": "\n        You are a cyber security commander AI.\n        Analyze the following event:\n\n        EVENT: {'event': 'MALWARE_DETECTED', 'severity_hint': 'high', 'raw': 'Malware detected attempting privilege escalation'}\n        CONTEXT: ['Trojan malware establishes backdoor access.', 'Ransomware encrypts user files and demands payment.', 'T1110 Brute Force \u2013 Adversaries attempt to gain access by guessing credentials.', 'T1059 Command and Scripting Interpreter \u2013 PowerShell execution abuse.', 'T1566 Phishing \u2013 Delivery via malicious email links.']\n\n        Explain threat, intent, and risk.\n        \n        Threat: Malware is a common threat that can cause significant damage to a system. It can be used to gain access to sensitive information or to spread malware to other systems. The severity hint of the event indicates that the malware is considered high-risk.\n\n        Intent: The malware is attempting to escalate privileges to gain access to the system. This is a high-risk threat because it can lead to system compromise and data theft.\n\n        Risk: The malware has been detected attempting privilege escalation, which indicates that it is a high-risk threat. The event mentions that the malware is considered high-risk, which means that it is a significant threat to the organization.\n\n        Threat Model: The threat is focused on the organization's critical infrastructure, which includes sensitive data and systems. The malware is attempting to gain access to privileged accounts and escalate privileges to gain access to the system. This threat can cause significant damage to the organization's operations and reputation.\n\n        Intention and Risk: The malware is attempting to escalate privileges to gain access to the system, which is a high-risk threat. The event mentions that the malware is considered high-risk, indicating that it is a significant threat to the organization.",
+    "severity": 100,
+    "recommended_actions": [
+        "Isolate system",
+        "Block IP",
+        "Alert admin"
+    ]
+}

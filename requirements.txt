@@ -1,0 +1,10 @@
+torch
+transformers
+accelerate
+bitsandbytes
+faiss-cpu
+sentence-transformers
+pyyaml
+rich
+psutil
+scikit-learn

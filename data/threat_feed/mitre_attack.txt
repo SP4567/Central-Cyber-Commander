@@ -1,0 +1,5 @@
+T1110 Brute Force – Adversaries attempt to gain access by guessing credentials.
+T1046 Network Service Scanning – Scanning for open ports and services.
+T1059 Command and Scripting Interpreter – PowerShell execution abuse.
+T1071 Application Layer Protocol – C2 communication over HTTPS.
+T1566 Phishing – Delivery via malicious email links.

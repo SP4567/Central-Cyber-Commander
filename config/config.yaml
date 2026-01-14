@@ -1,0 +1,16 @@
+model:
+  name: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  max_tokens: 2048
+
+rag:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+
+severity:
+  thresholds:
+    low: 30
+    medium: 60
+    high: 85
+
+agent:
+  safe_mode: true

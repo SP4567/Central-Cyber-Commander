@@ -1,0 +1,5 @@
+Failed password for root from 185.199.110.153 port 22 ssh2
+Multiple SYN packets detected from 45.83.193.10 indicating possible port scan
+Malware detected attempting privilege escalation on host WIN-USER-01
+Outbound connection to known C2 server 91.214.124.143 over TCP 443
+User clicked suspicious link in phishing email from attacker@evil.com
